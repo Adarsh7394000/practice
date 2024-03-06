@@ -4,9 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>  
+        tbl {  
+        border-collapse: collapse;  
+        width: 100%;  
+        }  
+          
+        th, td {  
+        border: 1px solid #ddd;  
+        padding: 8px;  
+        text-align: left;  
+        }  
+          
+        th {  
+        background-color: #4CAF50;  
+        color: white;  
+        }  
+        </style>
+        
     <script src="./practice.js"></script>
 </head>
 <body>
-    
+    <h1 style="text-align: center">Student Management System</h1>
+    <h2>Enter following details for registration</h2>
+   <div class="input">
+        Enter Name : <input type="text" id="Name" required/><br><br>
+        Enter MathMarks: <input type="text" id="MathMarks"/><br><br>
+        Enter Science_Marks: <input type="text" id="Science_Marks"/><br><br>
+        Enter English_Marks: <input type="text" id="English_Marks"/><br><br>
+        Enter Hindi_Marks: <input type="text" id="Hindi_Marks"/><br><br>
+        Enter computer_science_marks: <input type="text" id="computer_science_marks"/><br><br>
+        Enter MathMarks: <input type="text" id="MathMarks"/><br><br>
+        Enter gender: <input type="text" id="gender"/><br><br>
+        <button onclick="myFunction()">Submit Details</button>
+    </div>
+   <div class="output">
+    <p id="ab"></p>
+   </div>
 </body>
 </html>
